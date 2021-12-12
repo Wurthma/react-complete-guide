@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 
 const Expenses = (props) => {
   return (
-    <Card className="expense">
+    <Card className="expenses">
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
